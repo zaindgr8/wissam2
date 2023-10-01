@@ -545,7 +545,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "*",
         "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/cart/page:static/chunks/app/cart/page.js"
         ],
         "async": false
       },
@@ -553,7 +553,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "",
         "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/cart/page:static/chunks/app/cart/page.js"
         ],
         "async": false
       },
@@ -561,7 +561,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "default",
         "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/cart/page:static/chunks/app/cart/page.js"
         ],
         "async": false
       }
@@ -571,7 +571,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/cart/page:static/chunks/app/cart/page.js"
         ],
         "async": false
       },
@@ -579,7 +579,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/cart/page:static/chunks/app/cart/page.js"
         ],
         "async": false
       },
@@ -587,7 +587,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "default",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/cart/page:static/chunks/app/cart/page.js"
         ],
         "async": false
       }
@@ -597,7 +597,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "*",
         "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/cart/page:static/chunks/app/cart/page.js"
         ],
         "async": false
       },
@@ -605,7 +605,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "",
         "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/cart/page:static/chunks/app/cart/page.js"
         ],
         "async": false
       },
@@ -613,7 +613,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "default",
         "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/cart/page:static/chunks/app/cart/page.js"
         ],
         "async": false
       },
@@ -621,7 +621,33 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "defaultHead",
         "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/cart/page:static/chunks/app/cart/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/wisamlogo1.png": {
+      "*": {
+        "id": "(sc_client)/./components/wisamlogo1.png",
+        "name": "*",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/wisamlogo1.png",
+        "name": "",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/wisamlogo1.png",
+        "name": "default",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       }
@@ -752,6 +778,136 @@ self.__RSC_MANIFEST={
         "name": "Toaster",
         "chunks": [
           "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/product-gallery.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/product-gallery.tsx",
+        "name": "*",
+        "chunks": [
+          "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/product-gallery.tsx",
+        "name": "",
+        "chunks": [
+          "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
+        ],
+        "async": false
+      },
+      "ProductGallery": {
+        "id": "(sc_client)/./components/product-gallery.tsx",
+        "name": "ProductGallery",
+        "chunks": [
+          "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/product-info.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/product-info.tsx",
+        "name": "*",
+        "chunks": [
+          "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/product-info.tsx",
+        "name": "",
+        "chunks": [
+          "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
+        ],
+        "async": false
+      },
+      "ProductInfo": {
+        "id": "(sc_client)/./components/product-info.tsx",
+        "name": "ProductInfo",
+        "chunks": [
+          "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/cart-items-empty.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/cart-items-empty.tsx",
+        "name": "*",
+        "chunks": [
+          "app/cart/page:static/chunks/app/cart/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/cart-items-empty.tsx",
+        "name": "",
+        "chunks": [
+          "app/cart/page:static/chunks/app/cart/page.js"
+        ],
+        "async": false
+      },
+      "CartItemsEmpty": {
+        "id": "(sc_client)/./components/cart-items-empty.tsx",
+        "name": "CartItemsEmpty",
+        "chunks": [
+          "app/cart/page:static/chunks/app/cart/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/cart-items.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/cart-items.tsx",
+        "name": "*",
+        "chunks": [
+          "app/cart/page:static/chunks/app/cart/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/cart-items.tsx",
+        "name": "",
+        "chunks": [
+          "app/cart/page:static/chunks/app/cart/page.js"
+        ],
+        "async": false
+      },
+      "CartItems": {
+        "id": "(sc_client)/./components/cart-items.tsx",
+        "name": "CartItems",
+        "chunks": [
+          "app/cart/page:static/chunks/app/cart/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/cart-summary.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/cart-summary.tsx",
+        "name": "*",
+        "chunks": [
+          "app/cart/page:static/chunks/app/cart/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/cart-summary.tsx",
+        "name": "",
+        "chunks": [
+          "app/cart/page:static/chunks/app/cart/page.js"
+        ],
+        "async": false
+      },
+      "CartSummary": {
+        "id": "(sc_client)/./components/cart-summary.tsx",
+        "name": "CartSummary",
+        "chunks": [
+          "app/cart/page:static/chunks/app/cart/page.js"
         ],
         "async": false
       }
@@ -1736,7 +1892,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/cart/page:static/chunks/app/cart/page.js"
       ],
       "async": false
     },
@@ -1744,7 +1900,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/cart/page:static/chunks/app/cart/page.js"
       ],
       "async": false
     },
@@ -1752,7 +1908,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/cart/page:static/chunks/app/cart/page.js"
       ],
       "async": false
     },
@@ -1760,7 +1916,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/cart/page:static/chunks/app/cart/page.js"
       ],
       "async": false
     },
@@ -1768,7 +1924,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/cart/page:static/chunks/app/cart/page.js"
       ],
       "async": false
     },
@@ -1776,7 +1932,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/cart/page:static/chunks/app/cart/page.js"
       ],
       "async": false
     },
@@ -1784,7 +1940,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/cart/page:static/chunks/app/cart/page.js"
       ],
       "async": false
     },
@@ -1792,7 +1948,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/cart/page:static/chunks/app/cart/page.js"
       ],
       "async": false
     },
@@ -1800,7 +1956,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/cart/page:static/chunks/app/cart/page.js"
       ],
       "async": false
     },
@@ -1808,7 +1964,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/cart/page:static/chunks/app/cart/page.js"
       ],
       "async": false
     },
@@ -1816,7 +1972,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/cart/page:static/chunks/app/cart/page.js"
       ],
       "async": false
     },
@@ -1824,7 +1980,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/cart/page:static/chunks/app/cart/page.js"
       ],
       "async": false
     },
@@ -1832,7 +1988,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/cart/page:static/chunks/app/cart/page.js"
       ],
       "async": false
     },
@@ -1840,7 +1996,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/cart/page:static/chunks/app/cart/page.js"
       ],
       "async": false
     },
@@ -1848,7 +2004,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/cart/page:static/chunks/app/cart/page.js"
       ],
       "async": false
     },
@@ -1856,7 +2012,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/cart/page:static/chunks/app/cart/page.js"
       ],
       "async": false
     },
@@ -1864,7 +2020,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "default",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/cart/page:static/chunks/app/cart/page.js"
       ],
       "async": false
     },
@@ -1872,7 +2028,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "default",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/cart/page:static/chunks/app/cart/page.js"
       ],
       "async": false
     },
@@ -1880,7 +2036,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "defaultHead",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/cart/page:static/chunks/app/cart/page.js"
       ],
       "async": false
     },
@@ -1888,7 +2044,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "defaultHead",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/cart/page:static/chunks/app/cart/page.js"
       ],
       "async": false
     },
@@ -1912,6 +2068,30 @@ self.__RSC_MANIFEST={
       "chunks": [
         "static/css/app/layout.css"
       ]
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/wisamlogo1.png": {
+      "id": "(app-client)/./components/wisamlogo1.png",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/wisamlogo1.png#": {
+      "id": "(app-client)/./components/wisamlogo1.png",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/wisamlogo1.png#default": {
+      "id": "(app-client)/./components/wisamlogo1.png",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
     },
     "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/providers.tsx": {
       "id": "(app-client)/./components/providers.tsx",
@@ -2030,6 +2210,126 @@ self.__RSC_MANIFEST={
       "name": "Toaster",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/product-gallery.tsx": {
+      "id": "(app-client)/./components/product-gallery.tsx",
+      "name": "*",
+      "chunks": [
+        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/product-gallery.tsx#": {
+      "id": "(app-client)/./components/product-gallery.tsx",
+      "name": "",
+      "chunks": [
+        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/product-gallery.tsx#ProductGallery": {
+      "id": "(app-client)/./components/product-gallery.tsx",
+      "name": "ProductGallery",
+      "chunks": [
+        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/product-info.tsx": {
+      "id": "(app-client)/./components/product-info.tsx",
+      "name": "*",
+      "chunks": [
+        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/product-info.tsx#": {
+      "id": "(app-client)/./components/product-info.tsx",
+      "name": "",
+      "chunks": [
+        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/product-info.tsx#ProductInfo": {
+      "id": "(app-client)/./components/product-info.tsx",
+      "name": "ProductInfo",
+      "chunks": [
+        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/cart-items-empty.tsx": {
+      "id": "(app-client)/./components/cart-items-empty.tsx",
+      "name": "*",
+      "chunks": [
+        "app/cart/page:static/chunks/app/cart/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/cart-items-empty.tsx#": {
+      "id": "(app-client)/./components/cart-items-empty.tsx",
+      "name": "",
+      "chunks": [
+        "app/cart/page:static/chunks/app/cart/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/cart-items-empty.tsx#CartItemsEmpty": {
+      "id": "(app-client)/./components/cart-items-empty.tsx",
+      "name": "CartItemsEmpty",
+      "chunks": [
+        "app/cart/page:static/chunks/app/cart/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/cart-items.tsx": {
+      "id": "(app-client)/./components/cart-items.tsx",
+      "name": "*",
+      "chunks": [
+        "app/cart/page:static/chunks/app/cart/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/cart-items.tsx#": {
+      "id": "(app-client)/./components/cart-items.tsx",
+      "name": "",
+      "chunks": [
+        "app/cart/page:static/chunks/app/cart/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/cart-items.tsx#CartItems": {
+      "id": "(app-client)/./components/cart-items.tsx",
+      "name": "CartItems",
+      "chunks": [
+        "app/cart/page:static/chunks/app/cart/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/cart-summary.tsx": {
+      "id": "(app-client)/./components/cart-summary.tsx",
+      "name": "*",
+      "chunks": [
+        "app/cart/page:static/chunks/app/cart/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/cart-summary.tsx#": {
+      "id": "(app-client)/./components/cart-summary.tsx",
+      "name": "",
+      "chunks": [
+        "app/cart/page:static/chunks/app/cart/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/cart-summary.tsx#CartSummary": {
+      "id": "(app-client)/./components/cart-summary.tsx",
+      "name": "CartSummary",
+      "chunks": [
+        "app/cart/page:static/chunks/app/cart/page.js"
       ],
       "async": false
     }

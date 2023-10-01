@@ -64,10 +64,10 @@ export function CartItems() {
                 <p className="mt-1 text-sm font-medium">{formatCurrencyString({
                   value:product.price, currency:product.currency
                 })}</p>
-                <p className="mt-1 text-sm font-medium">
-                  Size: {/* @ts-ignore */}
+                {/* <p className="mt-1 text-sm font-medium">
+                  Size: 
                   <strong>{product.product_data?.size}</strong>
-                </p>
+                </p> */}
               </div>
 
               <div className="mt-4 sm:mt-0 sm:pr-9">

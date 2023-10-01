@@ -14,7 +14,7 @@ interface Props {
 }
 
 export function ProductInfo({product}:Props) {
-  const [selectedSize, setSelectedSize] = useState(product.sizes[0])
+  // const [selectedSize, setSelectedSize] = useState(product.sizes[0])
   const {addItem, cartDetails, incrementItem}=useShoppingCart()
   const {toast} = useToast()
   const isInCart= !!cartDetails?.[product._id]
@@ -23,12 +23,12 @@ export function ProductInfo({product}:Props) {
     const item={
       ...product,
       product_data: {
-        size: selectedSize
+        // size: selectedSize
       }
     }
     isInCart? incrementItem(item._id): addItem(item)
     toast({
-      title: `${item.name} (${getSizeName(selectedSize)})`,
+      // title: `${item.name} (${getSizeName(selectedSize)})`,
       description: "Product added to cart",
       action:(
         <Link href="/cart">
@@ -57,16 +57,16 @@ export function ProductInfo({product}:Props) {
       </div>
 
       <div className="mt-4">
-        <p>
+        {/* <p>
           Size: <strong>{getSizeName(selectedSize)}</strong>
-        </p>
-        {product.sizes.map((size) => (
+        </p> */}
+        {/* {product.sizes.map((size) => (
           <Button onClick={()=> setSelectedSize(size)} key={size} 
           variant={selectedSize===size? "default": "outline"} 
           className="mr-2 mt-4">
             {getSizeName(size)}
           </Button>
-        ))}
+        ))} */}
       </div>
 
       <form className="mt-6">
