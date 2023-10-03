@@ -8,7 +8,6 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { MainNav } from "@/components/main-nav"
 import { ThemeToggle } from "@/components/theme-toggle"
-import wissamlogo from "../components/wisamlogo.png"
 import React from "react"
 
 export function SiteHeader() {

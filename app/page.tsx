@@ -1,6 +1,6 @@
 import { client } from "@/sanity/lib/client"
 import { groq } from "next-sanity"
-
+import Img from "next/image"
 import { SanityProduct } from "@/config/inventory"
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
@@ -8,6 +8,8 @@ import { ProductFilters } from "@/components/product-filters"
 import { ProductGrid } from "@/components/product-grid"
 import { ProductSort } from "@/components/product-sort"
 import { seedSanityData } from "@/lib/seed"
+import wissamlogo from "../public/wissamlogo.png"
+import wissamlogo1 from "../public/logo1.png"
 
 interface Props {
   searchParams: {
@@ -62,7 +64,7 @@ export default async function Page({searchParams}: Props) {
               {products.length} Results {products.length === 1 ? "" : ""}
             </h1>
             {/* Product Sort */}
-            <ProductSort/>
+            {/* <ProductSort/> */}
           </div>
 
           <section aria-labelledby="products-heading" className="pb-24 pt-6">

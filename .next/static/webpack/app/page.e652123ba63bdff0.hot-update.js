@@ -1,0 +1,21 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("app/page",{
+
+/***/ "(app-client)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fzainulabideen%2FDownloads%2F_Software%20Journey%2FPIAIC-%202023%2FHackaton%2Fecom_Hackaton_2%2Fecommerce-app%2Fcomponents%2Fproduct-grid.tsx&server=false!":
+/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fzainulabideen%2FDownloads%2F_Software%20Journey%2FPIAIC-%202023%2FHackaton%2Fecom_Hackaton_2%2Fecommerce-app%2Fcomponents%2Fproduct-grid.tsx&server=false! ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************/
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./components/product-grid.tsx */ \"(app-client)/./components/product-grid.tsx\"))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1jbGllbnQpLy4vbm9kZV9tb2R1bGVzL25leHQvZGlzdC9idWlsZC93ZWJwYWNrL2xvYWRlcnMvbmV4dC1mbGlnaHQtY2xpZW50LWVudHJ5LWxvYWRlci5qcz9tb2R1bGVzPSUyRlVzZXJzJTJGemFpbnVsYWJpZGVlbiUyRkRvd25sb2FkcyUyRl9Tb2Z0d2FyZSUyMEpvdXJuZXklMkZQSUFJQy0lMjAyMDIzJTJGSGFja2F0b24lMkZlY29tX0hhY2thdG9uXzIlMkZlY29tbWVyY2UtYXBwJTJGY29tcG9uZW50cyUyRnByb2R1Y3QtZ3JpZC50c3gmc2VydmVyPWZhbHNlIS5qcyIsIm1hcHBpbmdzIjoiQUFBQSIsInNvdXJjZXMiOlsid2VicGFjazovL19OX0UvPzIwMmUiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCIvVXNlcnMvemFpbnVsYWJpZGVlbi9Eb3dubG9hZHMvX1NvZnR3YXJlIEpvdXJuZXkvUElBSUMtIDIwMjMvSGFja2F0b24vZWNvbV9IYWNrYXRvbl8yL2Vjb21tZXJjZS1hcHAvY29tcG9uZW50cy9wcm9kdWN0LWdyaWQudHN4XCIpIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(app-client)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fzainulabideen%2FDownloads%2F_Software%20Journey%2FPIAIC-%202023%2FHackaton%2Fecom_Hackaton_2%2Fecommerce-app%2Fcomponents%2Fproduct-grid.tsx&server=false!\n"));
+
+/***/ })
+
+});
