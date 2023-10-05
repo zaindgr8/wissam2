@@ -230,118 +230,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./components/product-grid.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/product-grid.tsx",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./components/product-grid.tsx",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "ProductGrid": {
-        "id": "(sc_client)/./components/product-grid.tsx",
-        "name": "ProductGrid",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/image.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "*",
-        "chunks": [
-          "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "",
-        "chunks": [
-          "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "default",
-        "chunks": [
-          "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [
-          "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "",
-        "chunks": [
-          "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "default",
-        "chunks": [
-          "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "*",
-        "chunks": [
-          "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "",
-        "chunks": [
-          "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "default",
-        "chunks": [
-          "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "defaultHead": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "defaultHead",
-        "chunks": [
-          "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./components/wisamlogo.png": {
       "*": {
         "id": "(sc_client)/./components/wisamlogo.png",
@@ -524,6 +412,144 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./node_modules/next/dist/client/image.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "defaultHead": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "defaultHead",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/product-gallery.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/product-gallery.tsx",
+        "name": "*",
+        "chunks": [
+          "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/product-gallery.tsx",
+        "name": "",
+        "chunks": [
+          "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
+        ],
+        "async": false
+      },
+      "ProductGallery": {
+        "id": "(sc_client)/./components/product-gallery.tsx",
+        "name": "ProductGallery",
+        "chunks": [
+          "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/product-info.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/product-info.tsx",
+        "name": "*",
+        "chunks": [
+          "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/product-info.tsx",
+        "name": "",
+        "chunks": [
+          "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
+        ],
+        "async": false
+      },
+      "ProductInfo": {
+        "id": "(sc_client)/./components/product-info.tsx",
+        "name": "ProductInfo",
+        "chunks": [
+          "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./components/cart-items-empty.tsx": {
       "*": {
         "id": "(sc_client)/./components/cart-items-empty.tsx",
@@ -602,80 +628,28 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./components/product-gallery.tsx": {
+    "(app-client)/./components/product-grid.tsx": {
       "*": {
-        "id": "(sc_client)/./components/product-gallery.tsx",
+        "id": "(sc_client)/./components/product-grid.tsx",
         "name": "*",
         "chunks": [
-          "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./components/product-gallery.tsx",
+        "id": "(sc_client)/./components/product-grid.tsx",
         "name": "",
         "chunks": [
-          "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       },
-      "ProductGallery": {
-        "id": "(sc_client)/./components/product-gallery.tsx",
-        "name": "ProductGallery",
+      "ProductGrid": {
+        "id": "(sc_client)/./components/product-grid.tsx",
+        "name": "ProductGrid",
         "chunks": [
-          "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./components/product-info.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/product-info.tsx",
-        "name": "*",
-        "chunks": [
-          "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./components/product-info.tsx",
-        "name": "",
-        "chunks": [
-          "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "ProductInfo": {
-        "id": "(sc_client)/./components/product-info.tsx",
-        "name": "ProductInfo",
-        "chunks": [
-          "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/studio/page.tsx": {
-      "*": {
-        "id": "(sc_client)/./app/studio/page.tsx",
-        "name": "*",
-        "chunks": [
-          "app/studio/page:static/chunks/app/studio/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/studio/page.tsx",
-        "name": "",
-        "chunks": [
-          "app/studio/page:static/chunks/app/studio/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/studio/page.tsx",
-        "name": "default",
-        "chunks": [
-          "app/studio/page:static/chunks/app/studio/page.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       }
@@ -1360,190 +1334,6 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/product-grid.tsx": {
-      "id": "(app-client)/./components/product-grid.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/product-grid.tsx#": {
-      "id": "(app-client)/./components/product-grid.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/product-grid.tsx#ProductGrid": {
-      "id": "(app-client)/./components/product-grid.tsx",
-      "name": "ProductGrid",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/client/image.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/esm/client/image.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/client/image.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "",
-      "chunks": [
-        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/esm/client/image.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "",
-      "chunks": [
-        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/client/image.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "default",
-      "chunks": [
-        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/esm/client/image.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "default",
-      "chunks": [
-        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/esm/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/client/link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/esm/client/link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/client/link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/esm/client/link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/shared/lib/head.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "*",
-      "chunks": [
-        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/esm/shared/lib/head.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "*",
-      "chunks": [
-        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/shared/lib/head.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "",
-      "chunks": [
-        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/esm/shared/lib/head.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "",
-      "chunks": [
-        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/shared/lib/head.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "default",
-      "chunks": [
-        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/esm/shared/lib/head.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "default",
-      "chunks": [
-        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/shared/lib/head.js#defaultHead": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "defaultHead",
-      "chunks": [
-        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/esm/shared/lib/head.js#defaultHead": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "defaultHead",
-      "chunks": [
-        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-      ],
-      "async": false
-    },
     "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/styles/globals.css#": {
       "id": "null",
       "name": "default",
@@ -1733,6 +1523,214 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/client/image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/esm/client/image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/client/image.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/esm/client/image.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/client/image.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/esm/client/image.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/esm/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/esm/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/esm/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/shared/lib/head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/esm/shared/lib/head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/shared/lib/head.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/esm/shared/lib/head.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/shared/lib/head.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/esm/shared/lib/head.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/shared/lib/head.js#defaultHead": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "defaultHead",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/node_modules/next/dist/esm/shared/lib/head.js#defaultHead": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "defaultHead",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/product-gallery.tsx": {
+      "id": "(app-client)/./components/product-gallery.tsx",
+      "name": "*",
+      "chunks": [
+        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/product-gallery.tsx#": {
+      "id": "(app-client)/./components/product-gallery.tsx",
+      "name": "",
+      "chunks": [
+        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/product-gallery.tsx#ProductGallery": {
+      "id": "(app-client)/./components/product-gallery.tsx",
+      "name": "ProductGallery",
+      "chunks": [
+        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/product-info.tsx": {
+      "id": "(app-client)/./components/product-info.tsx",
+      "name": "*",
+      "chunks": [
+        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/product-info.tsx#": {
+      "id": "(app-client)/./components/product-info.tsx",
+      "name": "",
+      "chunks": [
+        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/product-info.tsx#ProductInfo": {
+      "id": "(app-client)/./components/product-info.tsx",
+      "name": "ProductInfo",
+      "chunks": [
+        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
+      ],
+      "async": false
+    },
     "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/cart-items-empty.tsx": {
       "id": "(app-client)/./components/cart-items-empty.tsx",
       "name": "*",
@@ -1805,75 +1803,27 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/product-gallery.tsx": {
-      "id": "(app-client)/./components/product-gallery.tsx",
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/product-grid.tsx": {
+      "id": "(app-client)/./components/product-grid.tsx",
       "name": "*",
       "chunks": [
-        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/product-gallery.tsx#": {
-      "id": "(app-client)/./components/product-gallery.tsx",
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/product-grid.tsx#": {
+      "id": "(app-client)/./components/product-grid.tsx",
       "name": "",
       "chunks": [
-        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/product-gallery.tsx#ProductGallery": {
-      "id": "(app-client)/./components/product-gallery.tsx",
-      "name": "ProductGallery",
+    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/product-grid.tsx#ProductGrid": {
+      "id": "(app-client)/./components/product-grid.tsx",
+      "name": "ProductGrid",
       "chunks": [
-        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/product-info.tsx": {
-      "id": "(app-client)/./components/product-info.tsx",
-      "name": "*",
-      "chunks": [
-        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/product-info.tsx#": {
-      "id": "(app-client)/./components/product-info.tsx",
-      "name": "",
-      "chunks": [
-        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/components/product-info.tsx#ProductInfo": {
-      "id": "(app-client)/./components/product-info.tsx",
-      "name": "ProductInfo",
-      "chunks": [
-        "app/products/[slug]/page:static/chunks/app/products/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/app/studio/page.tsx": {
-      "id": "(app-client)/./app/studio/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/studio/page:static/chunks/app/studio/page.js"
-      ],
-      "async": false
-    },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/app/studio/page.tsx#": {
-      "id": "(app-client)/./app/studio/page.tsx",
-      "name": "",
-      "chunks": [
-        "app/studio/page:static/chunks/app/studio/page.js"
-      ],
-      "async": false
-    },
-    "/Users/zainulabideen/Downloads/_Software Journey/PIAIC- 2023/Hackaton/ecom_Hackaton_2/ecommerce-app/app/studio/page.tsx#default": {
-      "id": "(app-client)/./app/studio/page.tsx",
-      "name": "default",
-      "chunks": [
-        "app/studio/page:static/chunks/app/studio/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     }

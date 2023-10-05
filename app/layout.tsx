@@ -10,8 +10,8 @@ import { SiteFooter } from "@/components/site-footer"
 import { SiteHeader } from "@/components/site-header"
 
 export const metadata: Metadata = {
-  title: siteConfig.name,
-  description: siteConfig.description,
+  title: "Wissam by Wissam",
+  description: "Be You, Be Unique, Be Iconic",
   icons: {
     icon: "/logo1.png"
   }
